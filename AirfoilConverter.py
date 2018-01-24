@@ -6,6 +6,8 @@ Created on Sat Nov 18 13:22:13 2017
 
 Expects a .dat type airfoil polar from airfoiltools.com
 Converts airfoil plot into one the SolidWorks can use.
+
+test change :D
 """
 
 def addZero(origin, newfile):
@@ -46,7 +48,7 @@ try:
     origin = open(filename, "r")
     newfile = open(newfilename, "w")
 except IOError:
-    print("Couldn't open file or files, try again.")
+    print("Could not open file, please try again.")
 else:
     addZero(origin, newfile)
     print("Conversion succeeded.")
