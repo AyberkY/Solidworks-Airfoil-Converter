@@ -48,7 +48,7 @@ try:
     origin = open(filename, "r")
     newfile = open(newfilename, "w")
 except IOError:
-    print("Couldn't open file or files, try again.")
+    print("Could not open file, please try again.")
 else:
     addZero(origin, newfile)
     print("Conversion succeeded.")
