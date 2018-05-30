@@ -2,7 +2,7 @@
 """
 Created on Sat Nov 18 13:22:13 2017
 
-@author: PC
+@author: Ayberk Yaraneri
 
 Expects a .dat type airfoil polar from airfoiltools.com
 Converts airfoil plot into one that SolidWorks can use.
@@ -27,7 +27,6 @@ def Convert(origin, newfile):
             newfile.write('\t')
             newfile.write('0.000000')
             newfile.write('\n')
-    
     
 filename = input("File to convert?: " )
 newfilename = input("New file name?: ")
